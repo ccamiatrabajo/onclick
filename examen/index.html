@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Shelter</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+  <header>
+    <span class="heart"><img src="assets/imges/heart-light.png" alt=""></span>
+    <h1> Pet Shelter</h1>
+    <nav>
+        <a href="#">Find a Pet</a>
+      <a href="#">About</a>
+      <button id="donateButton">Donate</button>
+    </nav>
+    <section class="search-bar">
+      <div class="search-field">
+        <span><img src="assets/imges/paw-light.png" alt="paw" width="30"></span>
+ 
+        <label for="animalType">I'm looking for a...</label>
+        <select id="animalType">
+          <option value="any">Any Pet</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <span><img src="assets/imges/pin-light.png" alt="pin" width="30"></span>
+        <label for="location">in or near...</label>
+        <input type="text" id="location" placeholder="City or Zip Code">
+      </div>
+      <button id="findButton">Find your new best friend</button>
+    </section>
+  </header>
+  <main>
+   
+    <section class="pet-list">
+      <div class="pet" id="pepper">
+        <img src="assets/imges/pepper.jpg" alt="Pepper">
+        <div class="description">
+          <h3>Pepper</h3>
+          <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+        </div>
+        <div class="pet-info">
+          <p class="pettings">3 petting(s)</p>
+          <button class="petButton">Pet Pepper</button>
+        </div>
+      </div>
+      <div class="pet" id="bruce">
+        <img src="assets/imges/bruce.jpg" alt="Bruce">
+        <div class="description">
+          <h3>Bruce</h3>
+          <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+        </div>
+        <div class="pet-info">
+          <p class="pettings">5 petting(s)</p>
+          <button class="petButton">Pet Bruce</button>
+        </div>
+      </div>
+      <div class="pet" id="oscar">
+        <img src="assets/imges/oscar.jpg" alt="Oscar">
+        <div class="description">
+          <h3>Oscar</h3>
+          <p>Oscar is bright, energetic and friendly. He is looking for a good home.</p>
+        </div>
+        <div class="pet-info">
+          <p class="pettings">8 petting(s)</p>
+          <button class="petButton">Pet Oscar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
